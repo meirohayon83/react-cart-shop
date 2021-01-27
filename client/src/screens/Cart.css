@@ -1,0 +1,107 @@
+.cart {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    align-items: flex-start;
+  }
+
+.cart-list {
+    flex: 3 3  60rem;
+  }
+.cart-action {
+    flex: 0.7 1 20rem;
+    background-color: #f0f0f0;
+    border-radius: 0.5rem;
+    padding: 1rem;
+  }
+.cart-list-container {
+    padding: 0;
+    list-style-type: none;
+    padding: 1rem;
+  }
+.cart-list-container li {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 0.3rem #c0c0c0 solid;
+  }
+.cart-list-container li img {
+    max-width: 10rem;
+    max-height: 10rem;
+  }
+.cart-list-container li:first-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+.cart-image {
+    flex: 1 1;
+  }
+.cart-name {
+    flex: 3 1;
+  }
+.cart-price {
+    flex: 2.1 1;
+    font-size: 2.5rem;
+    text-align: right;
+  }
+.cart-size {
+    flex: 3 1;
+    font-size: 2rem;
+    text-align: right;
+    color: darkorange;
+  }
+.changeSize {
+    flex: 4.5 1;
+    font-size: 2rem;
+    text-align: right;
+  }
+.buttonD {
+    padding: 0.5rem;
+    margin: 1rem;
+    border: 0.1rem white solid;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color: rgb(238, 223, 223);
+    color:red;
+  }
+.buttons:hover {
+    border: 0.1rem #404040 solid;
+    background-color: #cff5e6;
+  }
+
+.buttonC {
+    padding: 0.2rem;
+    border: 0.1rem #808080 solid;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color: rgb(95, 107, 179);
+    height: 3rem;
+    margin: 0.5rem
+  }
+
+.buttonS {
+    padding: 0.2rem;
+    border: 0.1rem #afa1d3 solid;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color: rgb(245, 248, 250);
+    height: 3rem;
+    margin: 0.2rem;
+  }
+
+select{
+   border-radius: 0.9rem;
+   border: 0.2rem #f8d6d6 solid;
+   font-size: 1.5rem;
+   padding: 0.5rem;
+   color: rgb(32, 46, 46);
+  }
+
+.cart-count {
+   flex: 4.5 1;
+   font-size: 0.1rem;
+   text-align: right;
+   color: purple;
+  }

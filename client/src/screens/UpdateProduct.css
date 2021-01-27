@@ -1,0 +1,37 @@
+#image{
+
+     width: 12rem;
+     height: 12rem;
+     margin: 0 auto;
+}
+
+#description{
+    font-size: 1.5rem;
+    height: 4rem;
+    margin-bottom:4rem;
+}
+
+.sizeandcount{
+
+    width: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    float: left;
+    background-color:rgb(245, 238, 238);
+    color: darkblue;
+}
+
+i{
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.update{
+     
+    font-size: 2rem;
+    color: rgb(163, 214, 163);
+    background-color: rgb(29, 114, 139);
+    width: 100%;
+    text-align:center;
+}
